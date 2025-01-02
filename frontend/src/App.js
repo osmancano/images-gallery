@@ -12,6 +12,7 @@ const App = () => {
   const handleSearchSubmit = (e) => {
     e.preventDefault();
     console.log(word);
+    console.log(word);
     fetch(`${UNSPLASH_URL}?query=${word}&client_id=${UNSPLASH_KEY}`)
       .then((res) => res.json())
       .then((data) => {
@@ -20,6 +21,7 @@ const App = () => {
       .catch((err) => {
         console.log(err);
       })
+    setWord('');
   }
 
   return (
