@@ -2,7 +2,7 @@ import React from 'react';
 import { Button } from 'react-bootstrap';
 
 const Welcome = () => (
-  <div style={{ backgroundColor: 'lightGray' }}>
+  <div style={{ backgroundColor: '#eeeeee' }}>
     <h1> Images Gallery</h1>
     <p>
       This is simple application that retrieve photos using Unsplash API. In
